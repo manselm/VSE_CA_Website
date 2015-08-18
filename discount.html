@@ -1,0 +1,776 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initialscale=1.0">
+<meta charset="UTF-8">
+<title>Visa SavingEdge - Discounts</title>
+<!--CSS style file-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body>
+<div class="global_mobile_menu">
+  <ul>
+    <li class="search">
+      <input id="keyword" class="textual default" type="text" title="Search" name="xretailer" value="Search" tabindex="1">
+    </li>
+    <li><a href="index.html" target="_self">Home</a></li>
+    <li><a href="how.html" target="_self">How It Works</a></li>
+    <li><a href="enroll.html" target="_self">Enroll Now</a></li>
+    <li><a href="discount.html" target="_self">Discounts</a></li>
+    <li><a href="app.html" target="_self">Visa SavingsEdge App</a></li>
+    <li class="lastrow"><a href="" target="_self">Sign Out</a></li>
+  </ul>
+</div>
+<div class="global_wrapper-content">
+  <div class="global_gradient-top"> &nbsp; </div>
+  <div class="global_content">
+    <div class="global_header">
+      <h1 class="global_flt global_logo"><a href="index.html" target="_self">Visa SavingsEdge</a></h1>
+      <div class="global_mobile-hide global_frt global_search">
+        <ul>
+          <li class="search">
+            <input id="keyword" class="textual default" type="text" title="Search" name="xretailer" value="Search" tabindex="1">
+          </li>
+          <li><a class="global_blue" href="#">Sign In</a></li>
+          <li><a class="global_blue" href="#">My Account</a></li>
+        </ul>
+      </div>
+      <div class="global_search_icon"><img src="images/search_icon.gif"></div>
+      <ul class="global_navigation">
+        <li><a href="how.html" target="_self">How It Works</a></li>
+        <li><a href="enroll.html" target="_self">Enroll Now</a></li>
+        <li><a class="current" href="discount.html" target="_self">Discounts</a></li>
+        <li><a href="app.html" target="_self">Visa SavingsEdge App</a></li>
+      </ul>
+    </div>
+    <!--Discount hero slider-->
+    <div class="discount_slider">
+      <ul class="bxslider">
+        <li><a href="#" target="_self"><img src="images/hero_slide1.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide2.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide3.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide4.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide5.jpg" /></a></li>
+      </ul>
+    </div>
+    <div class="discount_slider_mobile">
+      <ul class="bxslider_mobile">
+        <li><a href="#" target="_self"><img src="images/hero_slide1_mobile.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide2_mobile.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide3_mobile.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide4_mobile.jpg" /></a></li>
+        <li><a href="#" target="_self"><img src="images/hero_slide5_mobile.jpg" /></a></li>
+      </ul>
+    </div>
+    <!--Discount calculator-->
+    <div class="dis_calculator">
+      <div class="dis_calculator_steps">
+        <h1 class="dis_calculator">Calculate your savings potential</h1>
+        <p class="dis_calculator"> 1. Enter the requested info<br>
+          2. Click the “calculate savings” button<br>
+          3. See your potential savings </p>
+      </div>
+      <div class="dis_calculate_savings">
+        <ul>
+          <li class="select_field">
+            <label>Merchant Category</label>
+            <select id="categorycalc" class="default" name="categoryid" tabindex="12">
+              <option selected="" value="all">All Categories</option>
+              <option value="18385">Automotive/Fuel/Parts</option>
+              <option value="18774">Business Services</option>
+              <option value="18367">Dining & Entertainment</option>
+              <option value="18382">Information Technology</option>
+              <option value="18364">Travel Services</option>
+            </select>
+          </li>
+          <li>
+            <label>Select Merchant</label>
+            <select id="calculatormerchantall" class="default" name="calculatormerchantall" tabindex="15">
+              <option value="-1"></option>
+              <option value="128682">Alamo</option>
+              <option value="191656">AutoZone</option>
+              <option value="136161">Baymont Inn & Suites</option>
+              <option value="195713">Bing Ads</option>
+              <option value="182531">Buca di Beppo</option>
+              <option value="128814">Chevron</option>
+              <option value="159995">CoffeeForLess.com</option>
+              <option value="47188">Data.com</option>
+              <option value="158635">Davinci Virtual</option>
+              <option value="136162">Days Inn</option>
+              <option value="201671">Dream Hotels</option>
+              <option value="159991">fromyouflowers.com</option>
+              <option value="204166">Gabbyville.com</option>
+              <option value="159994">Godiva</option>
+              <option value="164629">GO Shuttle</option>
+              <option value="201673">Hawthorn Suites</option>
+              <option value="130001">Health Advocate</option>
+              <option value="136146">Howard Johnson</option>
+              <option value="134113">HyperOffice</option>
+              <option value="136168">Knights Inn</option>
+              <option value="106486">La Quinta Inn & Suites</option>
+              <option value="189187">Lenovo</option>
+              <option value="136163">Microtel Inn & Suites</option>
+              <option value="164630">MyExpressFreight.com</option>
+              <option value="102759">National Car Rental</option>
+              <option value="201669">Night Hotels</option>
+              <option value="134075">OfficeFurniture.com</option>
+              <option value="136160">ParkWhiz</option>
+              <option value="163621">Practical eCommerce</option>
+              <option value="136164">Ramada Worldwide</option>
+              <option value="130512">Red Robin</option>
+              <option value="129831">SearsPartsDirect</option>
+              <option value="205010">Shopify.com</option>
+              <option value="186601">Sony</option>
+              <option value="164631">Standard Legal</option>
+              <option value="197540">STAPLES</option>
+              <option value="136165">Super 8</option>
+              <option value="132235">Swiftpage</option>
+              <option value="170787">Texaco</option>
+              <option value="98908">TigerDirect.com</option>
+              <option value="136166">Travelodge</option>
+              <option value="194233">Umbra</option>
+              <option value="164632">The Wall Street Journal</option>
+              <option value="136167">Wingate by Wyndham</option>
+              <option value="201676">Wyndham Garden</option>
+              <option value="201668">Wyndham Grand</option>
+              <option value="201672">Wyndham Hotels and Resorts</option>
+            </select>
+          </li>
+          <li>
+            <label>Enter Price (ex. $59.99)</label>
+            <input id="price" class="default" type="text" title="$0.00" value="$0.00" tabindex="20">
+          </li>
+          <li> <a id="btn_calculate" href="javascript:;">Calculate Savings</a> </li>
+        </ul>
+      </div>
+      <div class="dis_total_savings">
+        <p>Your Savings</p>
+        <span id="total_savings">$XX.XX</span></div>
+    </div>
+    <!--Discount Merchant Offers-->
+    <div class="offer_grid">
+      <div class="dis_merchant_sortby">
+        <h1>Participating Merchants</h1>
+        <label>Sort by</label>
+        <select id="sortby" class="default" name="sortby" tabindex="26">
+          <option selected="selected" value=""></option>
+          <option value="name-asc">Merchant A-Z</option>
+          <option value="name-desc">Merchant Z-A</option>
+          <option value="offer-desc">High to Low</option>
+          <option value="offer-asc">Low to High</option>
+        </select>
+        <a href="#" target="_self">Sort by A-Z</a> </div>
+      <div id="111111" class="merchant_catagory">
+        <div class="merchant_header">
+          <p>Auto Parts &amp; Fuel</p>
+        </div>
+        <div id="2" class="merchant_id"><img src="images/icon_2.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_2" class="offer">
+          <div class="merchantName">AutoZone</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="3" class="merchant_id">
+        	<div class="center">
+        		<div class="v-align">
+        			<img src="images/icon_3.gif">
+            	</div>
+            </div>
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_3" class="offer">
+          <div class="merchantName">Chevron</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="4" class="merchant_id"><img src="images/icon_4.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_4" class="offer">
+          <div class="merchantName">Sears</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="5" class="merchant_id"><img src="images/icon_5.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_5" class="offer">
+          <div class="merchantName">Texco</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+      </div>
+      <div id="22222" class="merchant_catagory">
+        <div class="merchant_header">
+          <p>Business Solutions</p>
+        </div>
+        <div id="6" class="merchant_id"><img src="images/icon_2.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_6" class="offer">
+          <div class="merchantName">AutoZone</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="7" class="merchant_id"><img src="images/icon_3.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_7" class="offer">
+          <div class="merchantName">Chevron</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="8" class="merchant_id"><img src="images/icon_4.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_8" class="offer">
+          <div class="merchantName">Sears</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="9" class="merchant_id"><img src="images/icon_5.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_9" class="offer">
+          <div class="merchantName">Texco</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+      </div>
+      <div id="33333" class="merchant_catagory">
+        <div id="header" class="merchant_header">
+          <p>Dining &amp; Entertainment</p>
+        </div>
+        <div id="10" class="merchant_id"><img src="images/icon_2.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_10" class="offer">
+          <div class="merchantName">AutoZone</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="11" class="merchant_id"><img src="images/icon_3.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_11" class="offer">
+          <div class="merchantName">Chevron</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="12" class="merchant_id"><img src="images/icon_4.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_12" class="offer">
+          <div class="merchantName">Sears</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="13" class="merchant_id"><img src="images/icon_5.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_13" class="offer">
+          <div class="merchantName">Texco</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+      </div>
+      <div id="444444" class="merchant_catagory">
+        <div id="header" class="merchant_header">
+          <p>Electronics</p>
+        </div>
+        <div id="14" class="merchant_id"><img src="images/icon_2.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_14" class="offer">
+          <div class="merchantName">AutoZone</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="15" class="merchant_id"><img src="images/icon_3.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_15" class="offer">
+          <div class="merchantName">Chevron</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="16" class="merchant_id"><img src="images/icon_4.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_16" class="offer">
+          <div class="merchantName">Sears</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="17" class="merchant_id"><img src="images/icon_5.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_17" class="offer">
+          <div class="merchantName">Texco</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+      </div>
+      <div id="555555" class="merchant_catagory">
+        <div id="header" class="merchant_header">
+          <p>Travel</p>
+        </div>
+        <div id="18" class="merchant_id"><img src="images/icon_2.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_18" class="offer">
+          <div class="merchantName">AutoZone</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="19" class="merchant_id"><img src="images/icon_3.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_19" class="offer">
+          <div class="merchantName">Chevron</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="20" class="merchant_id"><img src="images/icon_4.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_20" class="offer">
+          <div class="merchantName">Sears</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+        <div id="21" class="merchant_id"><img src="images/icon_5.gif">
+          <p><span class="headline">Save 2%</span><br>
+            See details &gt;</p>
+        </div>
+        <div id="content_21" class="offer">
+          <div class="merchantName">Texco</div>
+          <div class="merchantOffer">Save 2% on purchases of $50 or more</div>
+          <p class="merchantOfferDesc">For more than 30 years, AutoZone has been committed to providing the best parts, prices and customer service in the automotive aftermarket industry. With a rich culture and history of going the extra mile for customers and the community, AutoZone continues to be a leading retailer and  distributor of automotive replacement parts and accessories in the U.S.</p>
+          <a class="merchantLink" href="#" target="_blank">www.autozone.com</a>
+          <div class="merchantOfferTCLink">Terms and conditions</div>
+          <p class="merchantOfferTC">Offer valid from 08/01/2013 to 08/01/2015.<br>
+            Discount provided as a statement credit on a future account statement.<br>
+            Offer applicable only to purchases of $50 or more made with a valid, enrolled Visa Business card.<br>
+            Offer may be subject to additional terms &amp; conditions. Please see the Visa SavingsEdge Terms &amp; Conditions for more information.<br>
+            &copy; 2014 Visa U.S.A. Inc. </p>
+          <div class="merchantEnrollNow"><a href="#" target="_blank">enroll now</a></div>
+          <div class="merchantSocial"><img src="images/merchant_share.png" alt="Share:"><a href="#" target="_blank"><img src="images/merchant_facebook.png" alt=""></a><a href="#" target="_blank"><img src="images/merchant_twit.png" alt=""></a></div>
+          <div class="close_content"><img src="images/merchant_close.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="dis_learn_more">
+      <h1>Learning center</h1>
+      <p>From entertaining clients to planning a last minute flight — learn tips on how to save at work and beyond.</p><br>
+      <a href="learningcenter.html" class="app_button-blue">learn more</a><!--<a href="#" target="_self">learn more</a>--> 
+    </div>
+  </div>
+  <div class="app_wrapper-shop global_desktop-hide">
+    <div class="app_shop">
+      <h4>Start saving automatically</h4>
+      <a href="#" class="app_button-blue">enroll now</a> </div>
+  </div>
+  <div class="global_wrapper-footer">
+    <div class="global_footer">
+      <div class="global_flt global_footer-left"> <img src="images/footer-visa.png" width="192" height="31" alt="" /> </div>
+      <div class="global_frt global_footer-right">
+        <ul>
+          <li class="global_social-list-border global_social-list-height">
+            <ul>
+              <li class="global_social-sublist-padding-left global_social-sublist-padding-right global_social-sublist-block">
+                <h6>Follow</h6>
+              </li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-facebook" href="https://www.facebook.com/visasmallbiz" target="_blank">Facebook</a></li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-twitter" href="https://twitter.com/VisaSmallBiz" target="_blank">Twitter</a></li>
+            </ul>
+          </li>
+          <li class="global_social-list-border global_social-list-height">
+            <ul>
+              <li class="global_social-sublist-padding-left global_social-sublist-padding-right global_social-sublist-block">
+                <h6 class="mobile">Share</h6>
+              </li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-mail" href="mailto:?Subject=I'd%20like%20to%20invite%20you%20to%20join%20Visa%20SavingsEdge&body=Hi, %0D%0A%0D%0A I'd%20like%20to%20invite%20you%20to%20join%20Visa%20SavingsEdge,%20where%20you%20can%20save%20up%20to%2015%25%20on%20business%20purchases %0D%0A%20when%20you%20enroll%20your%20eligible%20Visa%20Business%20card. %0D%0A%0D%0A Visit%20Visa%20SavingsEdge%20to%20check%20out%20the%20great%20merchant%20offers,%20how%20the%20program%20works%20and%20more.%20 %0D%0A Once%20you're%20ready%20to%20sign%20up,%20enrollment%20is%20free%20and%20easy;%20enroll%20and%20start%20saving%20today! %0D%0A%0D%0A Enroll%20Now%20http://www.visasavingsedge.com/InviteaBusinessFriend" title="Invite a Business Friend" target="_blank">Email</a></li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.visasavingsedge.com" target="_blank">Facebook</a></li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fvisasavingsedge.com%2Fmembers%2Fhome.php%3Fsid%3D92XXdKrlo92&text=Save%20up%20to%2015%25%20with%20Visa%20SavingsEdge%C2%AE.%20Enrollment%20is%20free%3B%20enroll%20your%20eligible%20Visa%20Business%20card%20today.&tw_p=tweetbutton&url=http%3A%2F%2Fwww.afssn.com%2Fafssn.php%3Fc%3D92%26a%3D" target="_blank">Twitter</a></li>
+            </ul>
+          </li>
+          <li class="global_social-list-height">
+            <ul>
+              <li class="global_social-sublist-padding-left global_social-sublist-padding-right global_social-sublist-block">
+                <h6>Download App</h6>
+              </li>
+              <li class="global_social-sublist-padding-right"><a class="global_link-ios" href="https://itunes.apple.com/us/app/visa-savingsedge/id781935452?mt=8e" target="_blank">iOS</a></li>
+              <li><a class="global_link-android" href="https://play.google.com/store/apps/details?id=com.savingsedge&hl=en" target="_blank">Android</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="global_clr"></div>
+      </div>
+      <div class="global_clr"></div>
+    </div>
+  </div>
+  <div class="global_wrapper-subfooter">
+    <div class="global_subfooter">
+      <div class="global_flt">
+        <ul>
+          <li><a href="https://www.visasavingsedge.com/members/article.php?sid=92XXdKrlo92&xid=132205&print=true" target="_blank">Terms &amp; Conditions</a></li>
+          <li><a href="https://www.visasavingsedge.com/members/home.php?sid=92XXdKrlo92&ADA=true" target="_blank">Text Only Site</a></li>
+          <li class="lastfirstline"><a href="https://www.visasavingsedge.com/members/article.php?sid=92XXdKrlo92&xid=175280&print=true" target="_blank">Privacy Policy</a></li>
+          <li class="secondline"><a href="https://www.visasavingsedge.com/members/article.php?sid=92XXdKrlo92&xid=132206&print=true" target="_blank">Contact Us</a></li>
+          <li><a href="http://usa.visa.com/business/index.html#/page1" target="_blank">Visa.com</a></li>
+          <li><a href="http://www.facebook.com/visasmallbiz" target="_blank">Well Sourced by Visa Business</a></li>
+        </ul>
+      </div>
+      <div class="global_subfooter-right global_frt"> &copy; Copyright 2008-2014 Visa. All Rights Reserved. </div>
+      <div class="global_clr"></div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+	auto: true 
+	 });
+  $('.bxslider_mobile').bxSlider({
+	auto: true 
+	 });
+  
+  flag_mobile_menu = false;
+  
+  $('body').on('click', '.global_search_icon', function() {
+	  if(flag_mobile_menu != true){
+		  $(".global_wrapper-content").css("position","relative");
+		  $(".global_wrapper-content").css("right","80%");
+		  $(".global_gradient-top").css("position","relative");
+		  $(".global_gradient-top").css("right","80%");
+		  
+		  flag_mobile_menu = true;
+	  }
+	  else{
+		  $(".global_wrapper-content").css("position","relative");
+		  $(".global_wrapper-content").css("right","0px");
+		  $(".global_gradient-top").css("position","relative");
+		  $(".global_gradient-top").css("right","0px");
+		  
+		  flag_mobile_menu = false;
+	  }
+	  });
+});
+
+/*when a merchant terms & conditions is clicked*/
+$('body').on('click', '.merchantOfferTCLink', function() {
+	
+var merchantContentId = "#" + $(this).parent().prop("id");
+
+if ($(merchantContentId + " .merchantOfferTC").is(":hidden")){
+	$(merchantContentId + " .merchantOfferTC").show();
+	$(merchantContentId + " .merchantOfferTCLink").css("background","url(images/tc_arrowdown.png) 130px 0px no-repeat");
+}
+else {
+	$(merchantContentId + " .merchantOfferTC").hide();
+	$(merchantContentId + " .merchantOfferTCLink").css("background","url(images/tc_arrowright.png) 130px 0px no-repeat");
+}
+	
+
+});
+	
+	
+if ($(window).width() > 767) {
+	
+	$('body').on('click', '.merchant_id', function() {
+		
+     $(".offer").css("display","none");
+	 /*get a current merchant's content through id*/
+	 currentMerchant = "#content_"+$(this).prop("id") + ".offer";
+	 
+	 	/*conditional statement to see if the current merchant's content is already shown or not*/
+		 if($(currentMerchant).css('display') == 'block'){
+			 $(currentMerchant).css("display","none");
+			 /*Close all content classes*/
+			 $(".offer").css("display","none"); 		 
+		 }
+		 else {
+			 $(currentMerchant).css("display","block");  
+		 }; 
+		});
+	
+	$('body').on('click', '.close_content', function() {
+     $(".offer").css("display","none");
+	 
+	});
+
+}
+else {
+	/*when a merchant catagory is clicked*/
+	$('body').on('click', '.merchant_header', function() {
+		
+	var catagoryId = "#"+$(this).parent().prop("id");//#111111
+	var merchantId = "#" + $(this).next().prop("id");//#2
+	var merchantContentId = "#content_" + $(this).next().prop("id");//#content_2
+	
+		if ($(this).next('.merchant_id').is(":hidden")){
+			/*if catagory's offers are already shown, close them*/
+			$(catagoryId + " > .merchant_id").show();  
+			$(merchantContentId + ".offer").css("display","none");
+			$(".merchant_id").css("background","url(images/bkg_merchant.gif) 0px 0px no-repeat");
+			$(".merchant_id").css("border-bottom","2px solid #dedddd");
+			
+			//switching merchant header to (-).
+			$(catagoryId + " .merchant_header").css("background","url(images/bkg_merchant_catagory.gif) 0px -30px no-repeat");
+		}
+		else {
+			/*cose all offers*/
+			$(catagoryId + " > .merchant_id").hide();
+			$(catagoryId + " .offer").hide();
+			
+			//switching merchant header (+).
+			$(catagoryId + " .merchant_header").css("background","url(images/bkg_merchant_catagory.gif) 0px 0px no-repeat");
+		};		
+	});
+	
+	
+	/*when a merchant id clicked*/
+	$('body').on('click', '.merchant_id', function() {
+		
+	var merchantId = "#" + $(this).prop("id");
+	var merchantContentId = "#" + $(this).next().prop("id");
+	
+		if ($(merchantContentId).css("display") == 'block'){
+		
+			/*if catagory's offers are already shown, close them*/
+			$(merchantContentId + ".offer").css("display","none");
+			$(merchantId).css("background","url(images/bkg_merchant.gif) 0px 0px no-repeat");
+			$(merchantId).css("border-bottom","2px solid #dedddd");
+		}
+		else {
+			/*closing all the merchant offers before user sees a new one*/
+			$(merchantContentId + ".offer").css("display","none");
+			$(merchantId).css("background","url(images/bkg_merchant.gif) 0px -80px no-repeat");
+			$(merchantId).css("border-bottom","none");
+			$(merchantContentId + ".offer").css("display","block");
+			$(merchantContentId + ".offer").css("border-top","none");
+		};
+	
+	});
+}
+
+</script>
+</html>
