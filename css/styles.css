@@ -125,10 +125,15 @@ h1.global_logo a {
 .global_header {
 	height: 151px;
 }
+div.global_search .language_toggle {
+	padding:0px 0px 0px 40px;
+	background:url(../images/canada_icon.png) top left no-repeat;	
+}
 div.global_search {
 	padding: 23px 62px 0 0;
 	font-size: 14px;
 	line-height: 16px;
+	text-align:right;
 }
 div.global_search input {
 	height: 38px;
